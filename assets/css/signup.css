@@ -1,0 +1,10 @@
+.signup{
+    min-height: 100vh;
+    background-image: url('../images/signin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

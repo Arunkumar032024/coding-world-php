@@ -1,0 +1,20 @@
+.about-carousel img{
+   height: 100vw;
+   max-height: 80vh;
+   object-fit: cover;
+}
+.featurette .col-md-7{
+    max-height: 300px;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+.featurette .col-md-7::-webkit-scrollbar{
+    width: 0px;
+}
+.featurette p,
+.featurette ul li{
+    text-align: justify;
+}
+
+

@@ -1,0 +1,14 @@
+.faq{
+    min-height: 100vh;
+    background-image: url('../images/signin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq #accordionExample{
+    padding-left: 8rem;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    transition: all 5s ease;
+}
+:root{
+    --font-xxl: 4rem;
+    --font-xl: 3rem;
+    --font-lg: 2rem;
+    --font-md: 1.5rem;
+    --font-sm: 1rem;
+    --black-color: #000;
+    --yellow-color: #ff0;
+    --white-color: #fff;
+    --blue-color: #00f;
+    --green-color: #198754;
+    --c-color: #FB9AD1;
+    --java-color: #97E7E1; 
+    --php-color: #FEC7B4;
+    --python-color: #8B93FF;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-size: var(--font-md);
+    font-weight: 500;
+    color: var(--white-color);
+}
+h2{
+    font-size: var(--font-xl);
+    font-weight: 600;
+}

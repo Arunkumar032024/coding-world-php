@@ -1,0 +1,36 @@
+.contact{
+    /* background-color: red; */
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contact a{
+    font-size: var(--font-sm);
+    color: var(--black-color)
+}
+
+.contact .map-div{
+    width: fit-content;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact .map-div div{
+    padding: 5px;
+    background-color: #ddd;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+.contact #location{
+    text-decoration: underline;
+}
+

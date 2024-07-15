@@ -1,0 +1,125 @@
+.index .home-banner{
+    min-height: calc(100vh - 56px);
+    background: linear-gradient(90deg, #333, #333, #333);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home-banner h2{
+    font-size: var(--font-xxl);
+    color: var(--white-color);
+    font-weight: 800;
+}
+
+.home-banner p,
+.home-banner p a{
+    font-size: var(--font-lg);
+    color: var(--yellow-color);
+}
+.home-banner p:hover{
+    cursor: pointer;
+}
+.home-banner p a{
+    font-style: italic;
+}
+.home-banner p:hover a{
+    text-decoration: underline;
+}
+
+
+.index .language .row{
+    min-height: 100vh;
+    padding: 5rem;
+}
+
+.language .col-6{
+    min-height: 100%;
+    
+}
+
+.language .content-box{
+    padding: 5rem;
+    max-width: 592px;
+}
+
+.language .content-box p{
+    font-size: var(--font-md);
+    text-align: justify;
+}
+
+.language .editor-box{
+    padding: 0 5rem;
+    max-width: 592px;
+
+}
+
+.language .editor{
+    width: 100%;
+    min-height: 100%;
+    background-color: #FFEC9E;  
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.language .editor h3{
+    font-size: var(--font-md);
+    font-weight: 500;
+    color: var(--green-color);
+}
+
+.language .editor .code{
+    background-color: white;
+    min-height: 100%;
+    flex: 1;
+    padding: 1rem;
+    border-left: 5px solid var(--green-color);
+}
+.language .editor .code::-webkit-scrollbar{
+    height: 0px;
+}
+.language .editor .btn{
+    width: fit-content;
+}
+@media (max-width: 1192px) {
+    .language .content-box,
+    .language .editor-box{
+        padding: 2rem;
+    }
+}
+@media (max-width: 1033px) {
+    .language .content-box,
+    .language .editor-box{
+        padding: 3rem;
+    }
+}
+@media (max-width: 992px) {
+    .language .content-box,
+    .language .editor-box{
+        padding: 3rem;
+        margin: auto;
+    }
+}
+@media (max-width: 767px) {
+    .index .language .row{
+        padding: 2rem;
+    }
+    .language .content-box,
+    .language .editor-box{
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 592px) {
+    .index .language .row{
+        padding: 1rem;
+    }
+    .language .content-box,
+    .language .editor-box{
+        padding: 1rem;
+    }
+}
+
